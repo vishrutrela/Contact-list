@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/652/259/663/line-design-abstraction-background-blue-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contactlist{
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#contactitems{
+    display: flex;
+    border: 1px solid white;
+    background-color: rgb(89, 183, 219);
+    color: white;
+    justify-content: space-between;
+    width: 40%;
+    margin-inline: auto;
+    font-weight: 20px;
+}
+#contactitems:hover{
+    background-color: rgb(143, 138, 138);
+}
+.box1{
+    justify-content: center;
+
+}
+
+#phone{
+    /* border: 1px solid black; */
+    margin-left: 2px;
+    display: inline-block;
+    position: relative;
+    right: 0;
+}
+   
